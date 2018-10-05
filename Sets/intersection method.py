@@ -1,0 +1,13 @@
+# initialize A and B
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+# use & operator
+# Output: {4, 5}
+print(A & B)
+
+# use intersection function on A
+print(A.intersection(B))
+
+# use intersection function on B
+print(B.intersection(A))
