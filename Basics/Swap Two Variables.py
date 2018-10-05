@@ -13,11 +13,11 @@ y = 10
 # y = temp
 
 # Without Using Temporary Variable
-# x,y = y,x
+x,y = y,x
 
-x = x * y
-y = x / y
-x = x / y
+# x = x * y
+# y = x / y
+# x = x / y
 
 print("The value of x after swapping: {}".format(x))
 print("The value of y after swapping: {}".format(y))
