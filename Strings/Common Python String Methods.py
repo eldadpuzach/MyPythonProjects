@@ -1,0 +1,7 @@
+print("PrOgRaMiZ".lower())
+print("PrOgRaMiZ".upper())
+print("This will split all words into a list".split())
+print(' '.join(['This', 'will', 'join', 'all', 'words', 'into', 'a', 'string']))
+print('Happy New Year'.find('ew'))
+x = 'Happy New Year'.replace('Happy','Wonderful')
+print(x)
