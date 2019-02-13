@@ -7,4 +7,11 @@ odd = [x for x in range(20) if x % 2 == 1]
 print(odd)
 
 # Output = ['Python Language', 'Python Programming', 'C Language', 'C Programming']
-[x+y for x in ['Python ','C '] for y in ['Language','Programming']]
+l = []
+l = [x+y for x in ['Python ','C '] for y in ['Language','Programming']]
+print(l)
+
+l = []
+l = [x + y for x in ['Python ','C '] for y in ['Language','Programming']]
+print(l)
+
